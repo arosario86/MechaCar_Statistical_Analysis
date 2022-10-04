@@ -21,3 +21,12 @@ library(tidyverse)
 summarize_suspension <- Suspension_Coil_table %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
 #create lot summary table
 lot_summary <- Suspension_Coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
+
+#Deliverable 3
+
+#determine psi across all manufacturing lots
+t.test(Suspension_Coil_table$PSI, mu=1500)
+
+t.test(subset(Suspension_Coil_table,Manufacturing_Lot=="Lot1")$PSI, mu = 1500)
+t.test(subset(Suspension_Coil_table,Manufacturing_Lot=="Lot2")$PSI, mu = 1500)
+t.test(subset(Suspension_Coil_table,Manufacturing_Lot=="Lot3")$PSI, mu = 1500)
