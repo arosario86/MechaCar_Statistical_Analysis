@@ -15,3 +15,12 @@ The summary of the linear regression model is used to determine how good the dat
   * Based on the data ran in the model, Lots 1 and 2 seem to be within the 100 pounds per square inch threshold (Lot 1 has a variance of 0.9795918, and Lot 2 has a variance of 7.4693878). Lot 3 has the largest variance and shows that it is the problem and does not meet the design specification with a variance of 170.2861224.
 
 ![Lot_Summary](https://user-images.githubusercontent.com/104965708/193735686-c9ce1277-e47e-490c-9c4d-ff9eaed120f1.png)
+## T-Tests on Suspension Coils
+![Sample_Test](https://user-images.githubusercontent.com/104965708/193736700-064a3d15-c071-4bbf-86ef-3d0491f22367.png)
+The sample test shows that the p-vale is 0.06028 which shows that all 3 lots are not statistically different, which means we cannot reject the null hypothesis.
+![Lot_1](https://user-images.githubusercontent.com/104965708/193736987-7ba745a2-18b5-4830-ae96-385367d215f6.png)
+The p-value for Lot 1 is equal to 1, which is not low enough to reject the null hypothesis.
+![Lot_2](https://user-images.githubusercontent.com/104965708/193737199-a7beb730-1f9c-4ef8-b656-cb3d488807ab.png)
+The p-value for Lot 2 is equal to 0.6072, which is not low enough to reject the null hypothesis.
+![Lot_3](https://user-images.githubusercontent.com/104965708/193737350-cca72c27-81a9-4302-a98f-eb9688f587fb.png)
+The p-value for Lot 3 is qual to 0.04168, which is too low. We should reject the null hypothesis.
