@@ -32,3 +32,6 @@ The p-value for Lot 2 is equal to 0.6072, which is not low enough to reject the 
 ![Lot_3](https://user-images.githubusercontent.com/104965708/193737350-cca72c27-81a9-4302-a98f-eb9688f587fb.png)
 
 The p-value for Lot 3 is qual to 0.04168, which is too low. We should reject the null hypothesis.
+
+## Study Design: MechaCar vs Competition
+Another statistical study that can be used to quantify how the MechaCar will perform against its competition would be to factor in fuel efficiancy and safety ratings. With today's cost of gas constantly increasing and more careless drivers on the road, these two data points should be reviewed. To do this, a two sample t-test would be best as it would enable us to review data on the performance of the MechaCar and the competition. The null hypothesis for the fuel efficiancy can be 25mpg and for the safety rating it should be 10 (10 out of 10). In order to run this test, data from current MechaCars should be sampled against the competition.
